@@ -1,0 +1,158 @@
+
+ul {
+
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  ul li {
+    display: inline-block;
+   
+   
+  }
+  li {
+    float: center;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 8px;
+  
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2f4f4f;
+  }
+  
+  li {
+    float: left;
+    text-align: left;
+  }
+  
+  li a {
+    display: block;
+   
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color:rebeccapurple;
+    transition: 0.7s;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+    
+  
+  li a {
+    
+   
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul li a {
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #bireysel-content{
+   
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin: 1px;
+    margin-left: 5px;
+    
+  }
+  .birey-li:hover #bireysel-content{
+    display: block;
+  }
+  #box {
+    max-width: 300px;
+    position: relative;
+    padding-left: 1200px;
+   
+}
+ 
+#box .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color:cornflowerblue;
+}
+ 
+#search {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    font-size:18px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+ 
+#search:focus {
+    width: 100%;
+}
+.medya{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding-left: 1250px;
+  text-decoration: none;
+}
+.medya div a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  background:#2c3e50;
+  font-size: 40px;
+  color: #fff;
+  margin:0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.medya .facebook a:hover{
+  background: #4267B2;
+}
+.medya a i {
+  transition: 0.5s all;
+}
+.medya a:hover > i {
+  transform: scale(1.6);
+}
+.medya .twitter a:hover{
+  background: #1da1f2; 
+}
+.medya .youtube a:hover{
+  background: red 
+}
+.medya .instagram a:hover{
+  background: brown
+}
+
+
+
+  
+
+
+
